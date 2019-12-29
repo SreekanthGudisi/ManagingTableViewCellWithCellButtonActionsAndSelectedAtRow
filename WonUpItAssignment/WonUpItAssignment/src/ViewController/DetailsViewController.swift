@@ -107,21 +107,21 @@ extension DetailsViewController : UITableViewDelegate, UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         
-        // RotationTranform from right to left
-        let rotationTranform = CATransform3DTranslate(CATransform3DIdentity, 0, 50, 100)
-        cell.layer.transform = rotationTranform
-        cell.alpha = 0.5
-        UIView.animate(withDuration: 2.0) {
-            cell.layer.transform = CATransform3DIdentity
-            cell.alpha = 1.0
-            if self.isbuttonSelected == false {
-                self.selectedIndexUIView.isHidden = false
-            }else {
-                UIView.animate(withDuration: 0.7) {
-                    self.selectedIndexUIView.isHidden = true
-                }
-            }
-        }
+//        // RotationTranform from right to left
+//        let rotationTranform = CATransform3DTranslate(CATransform3DIdentity, 0, 50, 100)
+//        cell.layer.transform = rotationTranform
+//        cell.alpha = 0.5
+//        UIView.animate(withDuration: 2.0) {
+//            cell.layer.transform = CATransform3DIdentity
+//            cell.alpha = 1.0
+//            if self.isbuttonSelected == false {
+//                self.selectedIndexUIView.isHidden = false
+//            }else {
+//                UIView.animate(withDuration: 0.7) {
+//                    self.selectedIndexUIView.isHidden = true
+//                }
+//            }
+//        }
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

@@ -83,7 +83,7 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource, DetailsDe
         cell.tapButton.backgroundColor = .red
         let image = UIImage(named: "Diamond.png")
         cell.imageview.image = image
-        UIView.transition(with: cell.imageview, duration: 1, options: .transitionFlipFromBottom, animations: {
+        UIView.transition(with: cell.imageview, duration: 1, options: .transitionFlipFromRight, animations: {
         }) { (completion) in
         }
     }
@@ -120,15 +120,15 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource, DetailsDe
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         
-        // RotationTranform from left to right
-        let rotationTranform = CATransform3DTranslate(CATransform3DIdentity, -300, 0, 0)
-        cell.layer.transform = rotationTranform
-        cell.alpha = 0.5
-        
-        UIView.animate(withDuration: 0.75) {
-            cell.layer.transform = CATransform3DIdentity
-            cell.alpha = 1.0
-        }
+//        // RotationTranform from left to right
+//        let rotationTranform = CATransform3DTranslate(CATransform3DIdentity, -300, 0, 0)
+//        cell.layer.transform = rotationTranform
+//        cell.alpha = 0.5
+//        
+//        UIView.animate(withDuration: 0.75) {
+//            cell.layer.transform = CATransform3DIdentity
+//            cell.alpha = 1.0
+//        }
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

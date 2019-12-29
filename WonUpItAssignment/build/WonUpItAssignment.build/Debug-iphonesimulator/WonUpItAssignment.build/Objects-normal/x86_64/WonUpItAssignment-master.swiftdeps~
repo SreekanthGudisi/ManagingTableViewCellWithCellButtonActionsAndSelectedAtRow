@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "7e41583a278f7809a3a3deb23c50acb2"
+build_time: [1577636556, 160944000]
+inputs:
+  "/Users/i302342/Desktop/Sreekanth's Mac/Desktop/LiveProjects/iOS_Apps/Assignments/TimerInTableViewCell/ManagingTableViewCellWithCellButtonActionsAndSelectedAtRow/WonUpItAssignment/WonUpItAssignment/src/ViewController/TableViewCell.swift": [1576610046, 19507289]
+  "/Users/i302342/Desktop/Sreekanth's Mac/Desktop/LiveProjects/iOS_Apps/Assignments/TimerInTableViewCell/ManagingTableViewCellWithCellButtonActionsAndSelectedAtRow/WonUpItAssignment/WonUpItAssignment/src/ViewController/DetailsViewController.swift": [1577636556, 98134884]
+  "/Users/i302342/Desktop/Sreekanth's Mac/Desktop/LiveProjects/iOS_Apps/Assignments/TimerInTableViewCell/ManagingTableViewCellWithCellButtonActionsAndSelectedAtRow/WonUpItAssignment/WonUpItAssignment/src/ViewController/DetailsTableViewCell.swift": [1576605623, 354206920]
+  "/Users/i302342/Desktop/Sreekanth's Mac/Desktop/LiveProjects/iOS_Apps/Assignments/TimerInTableViewCell/ManagingTableViewCellWithCellButtonActionsAndSelectedAtRow/WonUpItAssignment/WonUpItAssignment/src/ViewController/ViewController.swift": [1577636556, 108281653]
+  "/Users/i302342/Desktop/Sreekanth's Mac/Desktop/LiveProjects/iOS_Apps/Assignments/TimerInTableViewCell/ManagingTableViewCellWithCellButtonActionsAndSelectedAtRow/WonUpItAssignment/WonUpItAssignment/src/Model/ImagesObject.swift": [1576605479, 734903216]
+  "/Users/i302342/Desktop/Sreekanth's Mac/Desktop/LiveProjects/iOS_Apps/Assignments/TimerInTableViewCell/ManagingTableViewCellWithCellButtonActionsAndSelectedAtRow/WonUpItAssignment/WonUpItAssignment/src/Resources/AppDelegate.swift": [1576606540, 941355348]
+  "/Users/i302342/Desktop/Sreekanth's Mac/Desktop/LiveProjects/iOS_Apps/Assignments/TimerInTableViewCell/ManagingTableViewCellWithCellButtonActionsAndSelectedAtRow/WonUpItAssignment/WonUpItAssignment/src/TransitionViewController/TransitionViewController.swift": [1576605479, 729736686]
+  "/Users/i302342/Desktop/Sreekanth's Mac/Desktop/LiveProjects/iOS_Apps/Assignments/TimerInTableViewCell/ManagingTableViewCellWithCellButtonActionsAndSelectedAtRow/WonUpItAssignment/WonUpItAssignment/src/Resources/SceneDelegate.swift": [1576605559, 34974933]
+  "/Users/i302342/Desktop/Sreekanth's Mac/Desktop/LiveProjects/iOS_Apps/Assignments/TimerInTableViewCell/ManagingTableViewCellWithCellButtonActionsAndSelectedAtRow/WonUpItAssignment/WonUpItAssignment/src/Helpers/Helpers.swift": [1576605559, 25495768]
